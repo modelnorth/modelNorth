@@ -15,6 +15,7 @@
   <a href="https://github.com/modelnorth"><img src="https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="mailto:contact@modelnorth.com"><img src="https://img.shields.io/badge/Contact-contact%40modelnorth.com-006600?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Contact" /></a>
   <img src="https://img.shields.io/badge/Security-Air--Gapped_Ready-00C896?style=for-the-badge&logo=shield" alt="Air-Gapped" />
+  <img src="https://img.shields.io/badge/Deployment-Zero_Foreign_APIs-blue?style=for-the-badge" alt="Zero Foreign APIs" />
   <img src="https://img.shields.io/badge/License-Apache_2.0-E8A020?style=for-the-badge" alt="License" />
 </p>
 
@@ -39,24 +40,6 @@ Modern enterprises, government authorities, and defense institutions operating i
 
 ---
 
-## 🧭 Flagship Platforms & Core Open Source Repositories
-
-<div align="center">
-
-| Repository / System | Domain | Description |
-| :--- | :--- | :--- |
-| [**Open-Data-Shield**](https://github.com/modelnorth/Open-Data-Shield) | **Zero-Trust Security** | Defense-grade data firewall detecting prompt injections, preventing data exfiltration, and enforcing automated PII/biometric redaction before inference. |
-| [**Citadel**](https://github.com/modelnorth/Citadel) | **Perimeter Defense** | Hardened enclave architecture for isolating sensitive model weights, secrets, and high-assurance compute nodes. |
-| [**worldmonitor**](https://github.com/modelnorth/worldmonitor) | **Global Intelligence** | Real-time geopolitical, news, and infrastructure tracking situational awareness dashboard powered by sovereign aggregation pipelines. |
-| [**CoWork-OS**](https://github.com/modelnorth/CoWork-OS) | **Autonomous Workspace** | Multi-agent autonomous enterprise operating system with verifiable task routing, state management, and sandboxed execution. |
-| [**awesome-claude-code-subagents**](https://github.com/modelnorth/awesome-claude-code-subagents) | **Agent Ecosystem** | Curated catalog and architectures for specialized, high-leverage agent roles and autonomous subagent orchestration. |
-| [**agent-lightning**](https://github.com/modelnorth/agent-lightning) | **Agent Runtime** | Ultra-low latency micro-execution engine for autonomous agent workflows and distributed tool binding. |
-| [**Mr.Holmes**](https://github.com/modelnorth/Mr.Holmes) | **Threat Investigation** | Automated OSINT, forensics, and incident investigation agent framework. |
-
-</div>
-
----
-
 ## ⚙️ Core Capabilities
 
 ```
@@ -69,7 +52,7 @@ Modern enterprises, government authorities, and defense institutions operating i
 │ MODELNORTH SOVEREIGN PERIMETER                                                             │
 │                                                                                            │
 │  ┌─────────────────────────┐     ┌──────────────────────────────────────────────────────┐  │
-│  │   OPEN-DATA-SHIELD      │ ──► │            DETERMINISTIC GOVERNANCE KERNEL           │  │
+│  │   DATA DEFENSE SHIELD   │ ──► │            DETERMINISTIC GOVERNANCE KERNEL           │  │
 │  │  • PII/ID Redaction     │     │  • Pre-Execution Tool Interception (<0.2ms latency)  │  │
 │  │  • Prompt Injection Def │     │  • Zero-Trust Cryptographic Identity Verification    │  │
 │  │  • Strict Data Boundary │     │  • RBAC & Context-Based Policy Enforcement           │  │
@@ -86,17 +69,17 @@ Modern enterprises, government authorities, and defense institutions operating i
 └────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Security & Threat Intelligence (Aegis Guard)
+### 1. Security & Threat Intelligence
 - **Zero-Telemetry Inference:** Eliminate risk of proprietary data or state secrets being ingested into public foundation models.
 - **Model-Native Threat Interception:** Heuristic and neural detection of adversarial injection, multi-turn jailbreaks, and indirect prompt manipulation.
 - **Automated PII & National ID Masking:** High-speed streaming redaction for passport numbers, national IDs, IBANs, and biometric records prior to model ingestion.
 
-### 2. Autonomous Agent Governance (GulfAgent & Sovereign OS)
+### 2. Autonomous Agent Governance
 - **Kernel-Level Tool Guardrails:** Prevent hallucinations from mutating production databases or executing unauthorized network calls.
 - **Cryptographic Human-in-the-Loop (HITL):** Configurable financial or operational thresholds trigger dual-custody approval before execution is committed.
 - **Multi-Tenant Micro-Enclaves:** Safe execution of arbitrary analytical code inside isolated, ephemeral hardware-enforced sandboxes.
 
-### 3. Enterprise Intelligence & Search (GulfIntel)
+### 3. Enterprise Intelligence & Search
 - **Verifiable RAG Lineage:** Document-grounded retrieval with strict context boundaries, eliminating synthetic hallucinations.
 - **Vector RBAC:** Enforce file, departmental, and security clearance classification directly at the vector embedding and retrieval layer.
 - **Multi-Dialect NLP:** Native, nuanced evaluation for regional languages and dialects alongside international enterprise workflows.
@@ -140,11 +123,11 @@ Modern enterprises, government authorities, and defense institutions operating i
 | Layer | Technologies |
 | :--- | :--- |
 | **Inference & Runtimes** | vLLM, Ollama, TensorRT-LLM, Triton Inference Server, Hugging Face TGI |
-| **Agent Orchestration** | LangGraph, CrewAI, Custom Deterministic Sovereign Kernels, BullMQ |
+| **Agent Orchestration** | Custom Deterministic Sovereign Kernels, LangGraph, CrewAI, BullMQ |
 | **Vector & Knowledge Layer** | Qdrant, PostgreSQL + pgvector, Redis, Apache Arrow, Milvus |
-| **Defense & Redaction** | Open-Data-Shield, Presidio, Custom Regex/NER Boundary Filters, OWASP Top 10 Guards |
+| **Defense & Redaction** | Context-Aware Boundary Filters, Presidio, OWASP Agentic Top 10 Guards |
 | **Infrastructure & IaC** | Docker, Podman, Kubernetes, Terraform, Ansible, Linux Hardening (CIS Benchmark) |
-| **Observability & Auditing** | Self-Hosted Langfuse, OpenTelemetry, Prometheus, Grafana, Pino Structured Logs |
+| **Observability & Auditing** | Self-Hosted Langfuse, OpenTelemetry, Prometheus, Grafana, Structured Audit Logging |
 
 </div>
 
