@@ -1,177 +1,203 @@
 <div align="center">
 
-<br />
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="modelnorth-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="modelnorth-logo.svg">
+    <img alt="ModelNorth Logo" src="modelnorth-logo.svg" width="440" />
+  </picture>
+</p>
 
-# ModelNorth
+### Sovereign AI Infrastructure for Government, Enterprise & Defense
 
-**Sovereign AI Infrastructure for Regulated Markets**
+<p align="center">
+  <a href="https://modelnorth.com"><img src="https://img.shields.io/badge/Website-modelnorth.com-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://github.com/modelnorth"><img src="https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="mailto:contact@modelnorth.com"><img src="https://img.shields.io/badge/Contact-contact%40modelnorth.com-006600?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Contact" /></a>
+  <img src="https://img.shields.io/badge/Security-Air--Gapped_Ready-00C896?style=for-the-badge&logo=shield" alt="Air-Gapped" />
+  <img src="https://img.shields.io/badge/License-Apache_2.0-E8A020?style=for-the-badge" alt="License" />
+</p>
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-E8A020?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-production%20ready-00C896?style=flat-square)](#)
-[![Deployment](https://img.shields.io/badge/deployment-air%20gapped%20capable-111111?style=flat-square)](#)
-[![Region](https://img.shields.io/badge/headquarters-Pakistan-006600?style=flat-square)](#)
-
-**[Website](https://modelnorth.com)** · **[Documentation](https://docs.modelnorth.ai)** · **[Contact](mailto:hello@modelnorth.com)**
+<p align="center">
+  <strong>Zero Foreign API Dependencies · Deterministic Policy Kernels · Complete Data Sovereignty</strong>
+</p>
 
 </div>
 
 ---
 
-## The Problem
+## 🏛️ Executive Mission
 
-Organizations in regulated markets face a structural disadvantage in AI adoption. Global cloud providers operate under foreign jurisdictions. Data residency requirements conflict with API architectures. Compliance frameworks demand audit trails that SaaS platforms cannot provide.
+Modern enterprises, government authorities, and defense institutions operating in regulated markets face a critical structural vulnerability: **sovereignty gaps**. Standard AI offerings rely on foreign hyperscaler clouds, shared multi-tenant infrastructure, and opaque API endpoints that expose sensitive state intelligence to jurisdictional and operational risks.
 
-The result: **sovereignty gaps** that expose institutions to regulatory risk, data exfiltration, and operational dependency on infrastructure they do not control.
+**ModelNorth** architects, engineers, and deploys **sovereign AI systems and deterministic governance infrastructure** that operate entirely within your security perimeter:
 
----
-
-## Our Solution
-
-ModelNorth designs, builds, and deploys **sovereign AI systems** that operate entirely within your perimeter. No foreign API dependencies. No shared infrastructure. No ambiguity about data ownership or residency.
-
-We serve enterprises and government entities that treat data sovereignty as a hard requirement, not a preference.
-
-### Core Capabilities
-
-| Domain | Application | Compliance Focus |
-|--------|-------------|------------------|
-| **Security & Threat Intelligence** | Model-native threat detection, adversarial pattern recognition, automated incident response | SOC 2, ISO 27001, NIST CSF |
-| **Talent & Workforce Intelligence** | Compliance-aware hiring pipelines, Emiratization/diversity mandate tracking, audit-ready HR workflows | GDPR, local labor regulations |
-| **Market Intelligence** | Real-time signal extraction, competitive analysis, risk surface monitoring | Data residency, financial regulations |
-| **Managed Infrastructure** | Self-hosted ERP, communications, document management with unified AI layer | Air-gapped deployment options |
-| **Knowledge Management** | RAG-based enterprise search, secure AI workspaces, verifiable document lineage | Zero external telemetry |
-| **Clinical AI** *(Research)* | Diagnostic support tools with differential privacy and federated learning capabilities | HIPAA, FDA 21 CFR Part 11 |
+* 🔒 **Air-Gapped & Boundary-Isolated:** Full-lifecycle LLM inference, vector retrieval, and autonomous agents executing with zero external network connectivity.
+* 🛡️ **Deterministic Governance (<0.2ms):** Policy enforcement at the compiled kernel level, making unauthorized tool executions structurally impossible rather than merely prompt-discouraged.
+* 📋 **Immutable Auditability:** SHA-256 chained, cryptographically signed tamper-evident flight recording for all prompt sequences, tool calls, and model outputs.
+* 🌐 **Sovereign Compliance:** Purpose-built for strict compliance with NIST CSF, SOC 2 Type II, ISO 27001, GDPR, and regional sovereign data residency laws.
 
 ---
 
-## Architecture Principles
+## 🧭 Flagship Platforms & Core Open Source Repositories
 
-### Zero-Trust by Design
-- **No external API dependencies** in production deployments
-- **Self-hosted inference** via Ollama, vLLM, or custom model serving
-- **Zero telemetry** — no usage data leaves your perimeter
-- **Air-gapped capable** — full functionality without internet connectivity
+<div align="center">
 
-### Compliance-First Engineering
-- **Data residency guarantees** — all processing within specified jurisdictions
-- **Immutable audit trails** — complete prompt/response logging with cryptographic verification
-- **Role-based access control (RBAC)** at the vector store level
-- **Model versioning and rollback** capabilities for regulated environments
+| Repository / System | Domain | Description |
+| :--- | :--- | :--- |
+| [**Open-Data-Shield**](https://github.com/modelnorth/Open-Data-Shield) | **Zero-Trust Security** | Defense-grade data firewall detecting prompt injections, preventing data exfiltration, and enforcing automated PII/biometric redaction before inference. |
+| [**Citadel**](https://github.com/modelnorth/Citadel) | **Perimeter Defense** | Hardened enclave architecture for isolating sensitive model weights, secrets, and high-assurance compute nodes. |
+| [**worldmonitor**](https://github.com/modelnorth/worldmonitor) | **Global Intelligence** | Real-time geopolitical, news, and infrastructure tracking situational awareness dashboard powered by sovereign aggregation pipelines. |
+| [**CoWork-OS**](https://github.com/modelnorth/CoWork-OS) | **Autonomous Workspace** | Multi-agent autonomous enterprise operating system with verifiable task routing, state management, and sandboxed execution. |
+| [**awesome-claude-code-subagents**](https://github.com/modelnorth/awesome-claude-code-subagents) | **Agent Ecosystem** | Curated catalog and architectures for specialized, high-leverage agent roles and autonomous subagent orchestration. |
+| [**agent-lightning**](https://github.com/modelnorth/agent-lightning) | **Agent Runtime** | Ultra-low latency micro-execution engine for autonomous agent workflows and distributed tool binding. |
+| [**Mr.Holmes**](https://github.com/modelnorth/Mr.Holmes) | **Threat Investigation** | Automated OSINT, forensics, and incident investigation agent framework. |
 
-### Operational Sovereignty
-- **Infrastructure as Code** — reproducible deployments on Hetzner, on-premise, or sovereign cloud
-- **Self-healing systems** — automated failover without external orchestration dependencies
-- **Vendor independence** — migrate between infrastructure providers without re-architecture
+</div>
 
 ---
 
-## Technology Stack
+## ⚙️ Core Capabilities
 
-<table>
-<tr>
-<td width="33%">
+```
+                  ┌──────────────────────────────────────────────────────────┐
+                  │                 USER / ENTERPRISE CLIENT                 │
+                  └─────────────────────────────┬────────────────────────────┘
+                                                │ Intent / Query
+                                                ▼
+┌────────────────────────────────────────────────────────────────────────────────────────────┐
+│ MODELNORTH SOVEREIGN PERIMETER                                                             │
+│                                                                                            │
+│  ┌─────────────────────────┐     ┌──────────────────────────────────────────────────────┐  │
+│  │   OPEN-DATA-SHIELD      │ ──► │            DETERMINISTIC GOVERNANCE KERNEL           │  │
+│  │  • PII/ID Redaction     │     │  • Pre-Execution Tool Interception (<0.2ms latency)  │  │
+│  │  • Prompt Injection Def │     │  • Zero-Trust Cryptographic Identity Verification    │  │
+│  │  • Strict Data Boundary │     │  • RBAC & Context-Based Policy Enforcement           │  │
+│  └─────────────────────────┘     └──────────────────────────┬───────────────────────────┘  │
+│                                                             │                              │
+│                                 ┌───────────────────────────┴───────────────────────────┐  │
+│                                 ▼                                                       ▼  │
+│                  ┌──────────────────────────────┐                       ┌────────────────┐ │
+│                  │     AIR-GAPPED INFERENCE     │                       │ CHIPPED FLIGHT │ │
+│                  │  • Self-Hosted vLLM / Ollama │                       │    RECORDER    │ │
+│                  │  • Private Weights Enclave   │                       │ • SHA-256 Chain│ │
+│                  │  • Zero External Telemetry   │                       │ • Legal Audit  │ │
+│                  └──────────────────────────────┘                       └────────────────┘ │
+└────────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-**Frontend**
-- Next.js 14 (App Router)
-- React Server Components
-- Tailwind CSS + shadcn/ui
-- Radix UI primitives
+### 1. Security & Threat Intelligence (Aegis Guard)
+- **Zero-Telemetry Inference:** Eliminate risk of proprietary data or state secrets being ingested into public foundation models.
+- **Model-Native Threat Interception:** Heuristic and neural detection of adversarial injection, multi-turn jailbreaks, and indirect prompt manipulation.
+- **Automated PII & National ID Masking:** High-speed streaming redaction for passport numbers, national IDs, IBANs, and biometric records prior to model ingestion.
 
-</td>
-<td width="33%">
+### 2. Autonomous Agent Governance (GulfAgent & Sovereign OS)
+- **Kernel-Level Tool Guardrails:** Prevent hallucinations from mutating production databases or executing unauthorized network calls.
+- **Cryptographic Human-in-the-Loop (HITL):** Configurable financial or operational thresholds trigger dual-custody approval before execution is committed.
+- **Multi-Tenant Micro-Enclaves:** Safe execution of arbitrary analytical code inside isolated, ephemeral hardware-enforced sandboxes.
 
-**Backend & APIs**
-- FastAPI (Python)
-- Node.js (Express/NestJS)
-- BullMQ (Redis-based queues)
-- GraphQL federation
-
-</td>
-<td width="33%">
-
-**AI & Orchestration**
-- LangGraph (stateful agent workflows)
-- CrewAI (multi-agent systems)
-- Anthropic Claude API (optional)
-- Ollama (local inference)
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-**Data Layer**
-- Supabase (PostgreSQL)
-- Redis (caching/sessions)
-- Upstash (serverless Redis)
-- Qdrant/Pinecone (vector stores)
-
-</td>
-<td width="33%">
-
-**Infrastructure**
-- Docker + Docker Compose
-- Hetzner VPS (EU/Germany)
-- Cloudflare Tunnel (optional)
-- Dokploy (self-hosted PaaS)
-
-</td>
-<td width="33%">
-
-**Observability**
-- Self-hosted Langfuse
-- Prometheus + Grafana
-- Pino (structured logging)
-- Zero external telemetry
-
-</td>
-</tr>
-</table>
+### 3. Enterprise Intelligence & Search (GulfIntel)
+- **Verifiable RAG Lineage:** Document-grounded retrieval with strict context boundaries, eliminating synthetic hallucinations.
+- **Vector RBAC:** Enforce file, departmental, and security clearance classification directly at the vector embedding and retrieval layer.
+- **Multi-Dialect NLP:** Native, nuanced evaluation for regional languages and dialects alongside international enterprise workflows.
 
 ---
 
-## Deployment Models
+## 🛡️ Architecture Principles
 
-### Cloud Sovereign
-Deployed on Hetzner Cloud (Germany) with GDPR-compliant infrastructure. Suitable for EU data residency requirements.
-
-### On-Premise
-Full stack deployment within your data center. Requires Kubernetes or Docker Swarm cluster. Includes hardware security module (HSM) integration for key management.
-
-### Air-Gapped
-Complete offline operation. No external network dependencies. Update packages delivered via secure physical media. Suitable for classified environments.
-
----
-
-## Security & Compliance
-
-- **Data Classification**: Automated PII detection and redaction at the prompt layer
-- **Access Control**: Context-based access control (CBAC) for vector stores and knowledge bases
-- **Audit Logging**: Immutable logs of all AI interactions with cryptographic verification
-- **Red Teaming**: Quarterly adversarial testing for prompt injection and data exfiltration vectors
-- **Model Governance**: SBOMs for all model dependencies, sunset criteria for model retirement
+| Principle | Engineering Standard |
+| :--- | :--- |
+| **Zero-Trust by Design** | No external third-party API dependencies required. Self-hosted inference via vLLM, Ollama, or custom TensorRT-LLM runtimes. |
+| **Zero Telemetry** | No usage statistics, query tokens, model evaluations, or operational metadata leave your hosting boundary. |
+| **Air-Gapped Capable** | Full functionality in completely isolated networks with no internet connection. Updates distributed via secure physical media. |
+| **Cryptographic Flight Recorder** | Tamper-evident ledger logging every prompt, model response, tool execution, and policy assertion with SHA-256 signatures. |
+| **Vendor Independence** | Infrastructure as Code (IaC) supporting bare-metal servers, private OpenStack/Kubernetes clusters, or sovereign regional clouds. |
 
 ---
 
-## Getting Started
+## 📦 Deployment Formats
 
-### Prerequisites
-- Docker 24.0+ and Docker Compose
-- 16GB RAM minimum (32GB recommended for local LLM inference)
-- Ubuntu 22.04 LTS or compatible Linux distribution
+### 1. Air-Gapped High Assurance
+* **Environment:** Completely disconnected private data centers, tactical units, and defense facilities.
+* **Key Management:** Hardware Security Modules (HSM) with FIPS 140-2 Level 3 / Level 4 root of trust.
+* **Network Profile:** 0.0.0.0 egress disabled; zero external DNS resolution.
 
-### Quick Start (Development)
-```bash
-# Clone the repository
-git clone https://github.com/modelnorth/infrastructure.git
-cd infrastructure
+### 2. Sovereign On-Premise
+* **Environment:** Enterprise bare-metal infrastructure or Kubernetes clusters (OpenShift, RKE2, K3s).
+* **Storage:** Self-hosted encrypted object stores (MinIO/Ceph) and sovereign vector databases (Qdrant, pgvector).
+* **Access:** Integrated with private enterprise identity providers (LDAP, Active Directory, SAML 2.0).
 
-# Configure environment
-cp .env.example .env
-# Edit .env with your configuration
+### 3. Sovereign Regional Cloud
+* **Environment:** Certified local infrastructure within national boundaries ensuring total jurisdictional data residency.
+* **Compliance:** Guaranteed geographic isolation and data sovereignty adhering to regional regulatory frameworks.
 
-# Deploy stack
-docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d
+---
 
-# Initialize database
-docker-compose exec api python scripts/init_db.py
+## 🛠️ Technology Ecosystem
+
+<div align="center">
+
+| Layer | Technologies |
+| :--- | :--- |
+| **Inference & Runtimes** | vLLM, Ollama, TensorRT-LLM, Triton Inference Server, Hugging Face TGI |
+| **Agent Orchestration** | LangGraph, CrewAI, Custom Deterministic Sovereign Kernels, BullMQ |
+| **Vector & Knowledge Layer** | Qdrant, PostgreSQL + pgvector, Redis, Apache Arrow, Milvus |
+| **Defense & Redaction** | Open-Data-Shield, Presidio, Custom Regex/NER Boundary Filters, OWASP Top 10 Guards |
+| **Infrastructure & IaC** | Docker, Podman, Kubernetes, Terraform, Ansible, Linux Hardening (CIS Benchmark) |
+| **Observability & Auditing** | Self-Hosted Langfuse, OpenTelemetry, Prometheus, Grafana, Pino Structured Logs |
+
+</div>
+
+---
+
+## 💻 Deterministic Policy Kernel (Example)
+
+ModelNorth systems utilize deterministic kernel interception rather than prompt-level trust:
+
+```python
+from modelnorth_os import SovereignKernel, ExecutionContext
+from modelnorth_os.policies import ZeroTrustIdentityPolicy, FinancialBoundaryPolicy
+
+# 1. Initialize Sovereign Kernel with zero-trust policies
+kernel = SovereignKernel(strict_mode=True)
+kernel.register_policy("identity_auth", ZeroTrustIdentityPolicy())
+kernel.register_policy("remittance_cap", FinancialBoundaryPolicy(max_limit=10000.00))
+
+# 2. Establish cryptographically verified execution context
+ctx = ExecutionContext(
+    agent_id="modelnorth-autonomous-analyst-01",
+    credentials_verified=True,
+    security_clearance="confidential",
+    national_id_redacted=True
+)
+
+# 3. Intercept & Validate Action (<0.2ms compiled execution)
+action_permit = kernel.evaluate(
+    tool="payment_disbursement",
+    arguments={"amount": 4250.00, "currency": "AED", "recipient_id": "ORG-9901"},
+    context=ctx
+)
+
+if action_permit.authorized:
+    result = kernel.dispatch(action_permit)
+    print(f"Dispatched safely. Ledger Signature: {result.audit_hash}")
+else:
+    print(f"Blocked by Sovereign Kernel: {action_permit.violation_reason}")
+```
+
+---
+
+## 📞 Engage with ModelNorth
+
+ModelNorth partners with government entities, regulated multinational corporations, and critical infrastructure operators.
+
+* 🌐 **Official Portal:** [modelnorth.com](https://modelnorth.com)
+* 📖 **Developer Documentation:** [docs.modelnorth.ai](https://docs.modelnorth.ai)
+* ✉️ **Direct Inquiries:** [contact@modelnorth.com](mailto:contact@modelnorth.com)
+* 📍 **Headquarters:** ModelNorth Ventures, Dubai, United Arab Emirates (with international sovereign engineering operations)
+
+<br />
+
+<div align="center">
+  <sub>© 2026 ModelNorth Ventures. All rights reserved. Sovereign AI Infrastructure for Regulated Markets.</sub>
+</div>
